@@ -19,7 +19,7 @@ function ListaCarrito() {
   return (
     <div className="col-md-3 border-start border-4 border-secondary">
       <div className="sticky-top " >
-        <h2>Shopping Cart</h2>
+        <h2>Shopping Carting mario kart</h2>
         {filteredItems.map(producto => (
           <ItemCarrito key={producto.id} producto={producto} 
             onClick={ ()=>{ removerItem(producto) } }
